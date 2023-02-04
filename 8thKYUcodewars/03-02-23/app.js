@@ -1,0 +1,17 @@
+//Return Negative
+//DESCRIPTION:
+// In this simple assignment you are given a number and have to make it negative.But maybe the number is already negative ?
+
+function makeNegative(num) {
+  return -Math.abs(num)
+}
+
+//Convert a Number to a String!
+// DESCRIPTION:
+// We need a function that can transform a number(integer) into a string.
+
+// What ways of achieving this do you know ?
+
+function numberToString(num) {
+    return str = num.toString()
+}
