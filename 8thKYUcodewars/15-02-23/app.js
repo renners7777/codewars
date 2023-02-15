@@ -7,3 +7,8 @@
 // Your function will be tested with pre - made examples as well as random ones.
 
 // If you can, try writing it in one line of code.
+
+function findDifference(a, b) {
+    return Math.abs(a.reduce((previous, current) => previous * current) - b.reduce((previous, current) => previous * current));
+}
+//I did not get the answer to this so had to look up the solution!
